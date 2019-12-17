@@ -1,0 +1,27 @@
+{
+  "name": "undeclared-identifiers",
+  "version": "1.0.0",
+  "description": "returns a set of undeclared identifiers",
+  "main": "index.js",
+  "keywords": [
+    "undeclared",
+    "identifiers",
+    "js",
+    "javascript",
+    "parse",
+    "acorn"
+  ],
+  "author": "Mason Mackaman",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ursi/js-undeclared-identifiers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ursi/js-undeclared-identifiers/issues"
+  },
+  "homepage": "https://github.com/Ursi/js-undeclared-identifiers#readme"
+}
