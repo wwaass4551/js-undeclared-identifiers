@@ -167,6 +167,9 @@ const buildScopeTree = function f(
 			case `SwitchStatement`:
 				u(`discriminant`);
 				u(`cases`, {newScopePath: globalScope.newScope(`lexical`, scopePath)}); break;
+			case `TaggedTemplateExpression`:
+				u(`tag`);
+				u(`quasi`); break;
 			case `TemplateLiteral`:
 				u(`expressions`); break;
 			case `TryStatement`:
